@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const button = document.querySelector('.load-beach');
     const section = document.querySelector('.results');
   
-    // Coloque aqui sua chave da API do Unsplash
-    const accessKey = '8GWyIrOU3traMKukBGzHnnBRxTG2VAYi'; // 👈 substitua por sua própria chave
+    // API key do Unsplash
+    const accessKey = 'ELFxdKyY7ohGjdjadQ3I-eR0cg2WkCx1uTBv26B712Y'; //
   
     button.addEventListener('click', fetchBeachImage);
   
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
           console.log(data);
   
-          // Limpar conteúdo anterior
+          // Clear the content
           section.innerHTML = '';
   
           // Criar e mostrar imagem
