@@ -18,12 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
           // Clear the content
           section.innerHTML = '';
   
-          // Criar e mostrar imagem
+          // To create and show the image
           const img = document.createElement('img');
           img.src = data.urls.regular;
           img.alt = data.alt_description || 'Beach image';
   
-          // Criar e mostrar nome do fotógrafo
+          // To create and show the photographer name
           const photographer = document.createElement('p');
           photographer.textContent = `Photo by ${data.user.name}`;
           photographer.classList.add('photographer-info');
