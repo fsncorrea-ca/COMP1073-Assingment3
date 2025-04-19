@@ -1,31 +1,31 @@
+/* Set the general style */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #e0f7fa;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  button {
-    padding: 12px 24px;
-    font-size: 18px;
-    cursor: pointer;
-    background-color: #00bcd4;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    margin-bottom: 30px;
-  }
-  
-  button:hover {
-    background-color: #0097a7;
-  }
-  
-  section img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  
+  font-family: Arial, sans-serif;
+  text-align: center; /* Centers all text content horizontally */
+  background-color: #e0f7fa;
+  margin: 0; /* Removes default margin from the body */
+  padding: 20px;
+}
+/* Style the button */
+button {
+  padding: 12px 24px; /* Adds 12px top/bottom and 24px left/right space inside the button */
+  font-size: 18px;
+  cursor: pointer; /* Changes mouse cursor to a pointer when hovering */
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounds the corners of the button */
+  margin-bottom: 30px; /* Adds space below the button */
+}
+/* Button color */
+button:hover {
+  background-color: #0097a7; /* Changes background color when mouse hovers over the button */
+}
+/* Style the displayed image */
+section img {
+  max-width: 80%; /* Ensures the image never gets wider than 80% of the container */
+  height: auto; /* Automatically adjusts height to maintain aspect ratio */
+  border-radius: 10px; /* Rounds the corners of the image */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a soft shadow below the image*/
+}
+
